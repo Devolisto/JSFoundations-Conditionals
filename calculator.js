@@ -5,17 +5,31 @@ let theOperation = "-";
 
 // Write if-statements here
 // I think this if statment could be written better i.e. the final abroad else statemnt 
+
+// if(theOperation === "+") {
+//     console.log(firstNumber + secondNumber);
+// } else if (theOperation === "-") {
+//     console.log(firstNumber - secondNumber);
+// } else if (theOperation === "*") {
+//     console.log(firstNumber * secondNumber);
+// } else {
+//     console.log(firstNumber / secondNumber);
+// }
+
+
 if(theOperation === "+") {
     console.log(firstNumber + secondNumber);
-} else if (theOperation === "-") {
+} if (theOperation === "-") {
     console.log(firstNumber - secondNumber);
-} else {
+} if (theOperation === "*") {
+    console.log(firstNumber * secondNumber);
+} if (theOperation === "/"){
     console.log(firstNumber / secondNumber);
 }
 
 
 
-// n calculator.js, create an integer variable for the first number.
+// In calculator.js, create an integer variable for the first number.
 // Create a second integer variable for the second number.
 // Create a third string variable for the operation (addition "+", subtraction "-", multiplication "*", or division "/").
 // Use if-statements to check which operation the third variable has.
